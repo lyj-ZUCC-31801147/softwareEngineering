@@ -1,0 +1,10 @@
+<button bindtap="invokeGetBDX">获取比大小题目</button>
+<button bindtap="getSST">获取三视图题目</button>
+<button bindtap="invokeGetSWBT">获取识文辨图题目</button>
+<button bindtap="updatePScore">更新P成绩</button>
+<button bindtap="invokeGetAnalysis">获得分析</button>
+<button bindtap="invokeRegist">注册</button>
+<input class="input" type="text" placeholder="ModuleItem" bindinput="getModuleName" > </input >
+<input class="input" type="number" placeholder="ModuleScore" bindinput="getModeuleScore" > </input >
+<button bindtap="invokeUpdateScore">调用更新成绩接口</button>
+<button bindtap="invokeCaluScore">调用计算成绩</button>
